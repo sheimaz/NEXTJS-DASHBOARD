@@ -1,3 +1,11 @@
+// Define the 'customers' array
+const customers = [
+  { id: 1, name: 'Customer 1' },
+  { id: 2, name: 'Customer 2' },
+  // Add more customer data as needed
+];
+
+// Define the 'invoices' array using 'customers'
 const invoices = [
   {
     customer_id: customers[0].id,
@@ -13,3 +21,5 @@ const invoices = [
   },
   // ...
 ];
+
+// The 'invoices' array is now defined using 'customers'
